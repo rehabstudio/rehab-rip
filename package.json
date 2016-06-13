@@ -1,0 +1,32 @@
+{
+  "name": "responsive-image-preloader",
+  "description": "Gathers up image elements in the DOM denoted with a particular class and hides them until their source has been determined and preloaded.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rehabstudio/responsive-image-preloader.git"
+  },
+  "authors": [
+    "Anthony Hastings <anthony@rehabstudio.com>"
+  ],
+  "scripts": {
+    "gulp": "gulp",
+    "lint": "gulp lint",
+    "pretest": "npm run-script lint",
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "6.1.2",
+    "babel-loader": "6.0.1",
+    "babel-preset-es2015": "6.1.2",
+    "chalk": "1.1.0",
+    "gulp": "3.9.0",
+    "gulp-debug": "2.1.0",
+    "gulp-eslint": "2.0.0",
+    "rehab-fe-skeleton-testsuite": "4.1.0",
+    "webpack-stream": "2.1.1",
+    "yargs": "3.15.0"
+  }
+}
