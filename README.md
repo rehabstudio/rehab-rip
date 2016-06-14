@@ -1,5 +1,5 @@
-[![Travis](https://img.shields.io/travis/rehabstudio/responsive-image-preloader.svg?maxAge=3600)](https://travis-ci.org/rehabstudio/responsive-image-preloader)
-[![npm](https://img.shields.io/npm/v/responsive-image-preloader.svg?maxAge=3600)](https://www.npmjs.com/package/responsive-image-preloader)
+[![Travis](https://img.shields.io/travis/rehabstudio/responsive-image-preloader.svg?maxAge=3601)](https://travis-ci.org/rehabstudio/responsive-image-preloader)
+[![npm](https://img.shields.io/npm/v/responsive-image-preloader.svg?maxAge=3601)](https://www.npmjs.com/package/responsive-image-preloader)
 
 # Responsive Image Preloader (RIP)
 
