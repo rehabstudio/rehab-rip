@@ -1,11 +1,11 @@
 {
-  "name": "responsive-image-preloader",
+  "name": "rehab-rip",
   "description": "Gathers up image elements in the DOM denoted with a particular class and hides them until their source has been determined and preloaded.",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rehabstudio/responsive-image-preloader.git"
+    "url": "git@github.com:rehabstudio/rehab-rip.git"
   },
   "authors": [
     "Anthony Hastings <anthony@rehabstudio.com>"

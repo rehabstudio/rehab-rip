@@ -1,5 +1,5 @@
-[![Travis](https://img.shields.io/travis/rehabstudio/responsive-image-preloader.svg?maxAge=3601)](https://travis-ci.org/rehabstudio/responsive-image-preloader)
-[![npm](https://img.shields.io/npm/v/responsive-image-preloader.svg?maxAge=3601)](https://www.npmjs.com/package/responsive-image-preloader)
+[![Travis](https://img.shields.io/travis/rehabstudio/rehab-rip.svg?maxAge=3601)](https://travis-ci.org/rehabstudio/rehab-rip)
+[![npm](https://img.shields.io/npm/v/rehab-rip.svg?maxAge=3601)](https://www.npmjs.com/package/rehab-rip)
 
 # Responsive Image Preloader (RIP)
 
@@ -27,7 +27,7 @@ folder.
 
 An example page with multiple use cases (standard image, responsive image) can
 be found within the [examples folder](
-https://github.com/rehabstudio/responsive-image-preloader/tree/master/examples)
+https://github.com/rehabstudio/rehab-rip/tree/master/examples)
 of the repository.
 
 ## Usage
