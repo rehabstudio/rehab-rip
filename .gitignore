@@ -106,7 +106,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# JavaScript maps
+# Source maps
+*.css.map
 *.js.map
 
 # Output by junit/cobertura via Karma for integration with Jenkins.

@@ -1,0 +1,11 @@
+.rip {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0ms linear 500ms, opacity 500ms linear;
+
+    &.rip--loaded {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0ms;
+    }
+}

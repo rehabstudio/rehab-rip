@@ -1,0 +1,5 @@
+.rip { opacity: 0; visibility: hidden; -webkit-transition: visibility 0ms linear 500ms, opacity 500ms linear; transition: visibility 0ms linear 500ms, opacity 500ms linear; }
+
+.rip.rip--loaded { visibility: visible; opacity: 1; -webkit-transition-delay: 0ms; transition-delay: 0ms; }
+
+/*# sourceMappingURL=rip.css.map */
