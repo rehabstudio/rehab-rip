@@ -77,6 +77,18 @@ options object whenever it is called:
 | *`imageLoadedSelector`* | A CSS selector applied after an image element finishes preloading. | String | `'rip--loaded'` |
 | *`onLoad`* | Logic to run whenever an image has been successfully preloaded. | Function | `function(imageElement) { imageElement.classList.add('rip--loaded'); }` |
 
+Example of overriding the defaults above:
+
+    var imagePreloader = new Rip({
+        scanInterval: 300,
+        scanTimeout: 5000,
+        imageSelector: 'js-preload-me',
+        imageLoadedSelector: 'preloaded',
+        onLoad: function(img) { img.classList.add('preloaded'); }
+    });
+
+    imagePreloader.triggerPreloading();
+
 ## Compiling
 
 If you wish to manually compile the latest library files then clone the
