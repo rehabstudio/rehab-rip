@@ -21,7 +21,7 @@ Install this package via the usual `npm` commmands or you could download this
 repository as a zip and take the relevant library bundle file from the `dist/`
 folder.
 
-    npm install responsive-image-preloader --save
+    npm install rehab-rip --save
 
 ## Example
 
