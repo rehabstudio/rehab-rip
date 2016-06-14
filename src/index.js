@@ -171,4 +171,19 @@ module.exports = class Rip {
     isValidProperty(targetObject, propertyName, propertyType) {
         return (targetObject.hasOwnProperty(propertyName) && typeof(targetObject[propertyName]) === propertyType);
     }
+
+    /**
+     * Nulls all internal class variables to ensure that an instantiation
+     * of this class will put up little resistance when it comes to being
+     * garbage collected.
+     */
+    destroy() {
+        this.clearInterval();
+        this.imageElements = null;
+        this.onLoadCallback = null;
+        this.imageLoadedSelector = null;
+        this.imageSelector = null;
+        this.scanTimeout = null;
+        this.scanInterval = null;
+    }
 };
