@@ -71,11 +71,11 @@ options object whenever it is called:
 
 | Setting | Description | Type | Example Value |
 |---------|-------------|------|---------------|
-| *`scanInterval`* | The frequency (ms) with which image elements should be tested for their `currentSrc` value being set. | `Number` | 150 |
-| *`scanTimeout`* | The amount of time (ms) that can pass before the interval doing the scanning gets forcibly cleared. | `Number` | 6000 |
-| *`imageSelector`* | A valid CSS selector to select image elements needing preloaded. | `String` | `'js-rip-preload'` |
-| *`imageLoadedSelector`* | A CSS selector applied after an image element finishes preloading. | `String` | `'rip--loaded'` |
-| *`onLoad`* | Logic to run whenever an image has been successfully preloaded. | `Function` | `function(imageElement) { imageElement.classList.add('rip--loaded'); }` |
+| *`scanInterval`* | The frequency (ms) with which image elements should be tested for their `currentSrc` value being set. | Number | `150` |
+| *`scanTimeout`* | The amount of time (ms) that can pass before the interval doing the scanning gets forcibly cleared. | Number | `6000` |
+| *`imageSelector`* | A valid CSS selector to select image elements needing preloaded. | String | `'js-rip-preload'` |
+| *`imageLoadedSelector`* | A CSS selector applied after an image element finishes preloading. | String | `'rip--loaded'` |
+| *`onLoad`* | Logic to run whenever an image has been successfully preloaded. | Function | `function(imageElement) { imageElement.classList.add('rip--loaded'); }` |
 
 ## Compiling
 
