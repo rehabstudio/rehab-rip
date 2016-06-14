@@ -5,9 +5,9 @@
  * @type {Object}
  */
 var loadingOverrides = {
-    'build': ['scripts', 'build'],
-    'default': ['scripts', 'build', 'default'],
-    'watch': ['scripts', 'build', 'watch']
+    'build': ['styles', 'scripts', 'build'],
+    'default': ['styles', 'scripts', 'build', 'default'],
+    'watch': ['styles', 'scripts', 'build', 'watch']
 };
 
 /**

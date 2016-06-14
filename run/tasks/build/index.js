@@ -11,9 +11,13 @@ var gulp = require('gulp');
 var chalk = require('chalk');
 var globalSettings = require('../../config');
 
-gulp.task('build', ['scripts'], function() {
+gulp.task('build', ['styles', 'scripts'], function() {
     if (Object.keys(globalSettings.taskConfiguration.scripts.webpackSettings.entry).length === 0) {
         console.log(chalk.bgYellow.gray(' FE Skeleton: Warning - There are no script bundles defined.'));
+    }
+
+    if (globalSettings.taskConfiguration.styles.bundles.length === 0) {
+        console.log(chalk.bgYellow.gray(' FE Skeleton: Warning - There are no style bundles defined.'));
     }
 
     return gulp.src(globalSettings.taskConfiguration.build.sourcePaths, {base: './'})

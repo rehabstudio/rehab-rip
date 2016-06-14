@@ -13,9 +13,14 @@
 var gulp = require('gulp');
 var args = require('yargs').argv;
 var chalk = require('chalk');
+var globalSettings = require('../../config');
 
 gulp.task('watch', ['build'], function() {
     var watchFunctions = {
+        styles: function() {
+            console.log(chalk.bgYellow.gray(' FE Skeleton: Watching styles.'));
+            gulp.watch(globalSettings.taskConfiguration.watch.sourcePaths.styles, ['styles']);
+        },
         scripts: function() {
             console.log(chalk.bgYellow.gray(' FE Skeleton: Watching scripts.'));
             gulp.run('scripts:watch');
